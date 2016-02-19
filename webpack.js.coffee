@@ -8,6 +8,7 @@ module.exports =
   output:
     path: './'
     filename: 'app.js'
+    sourceMapFilename: 'app.js.map'
     libraryTarget: "commonjs2"
   resolve:
     extensions: ['', '.coffee', '.js']

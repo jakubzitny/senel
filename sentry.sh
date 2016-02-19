@@ -24,10 +24,10 @@ curl $releaseFileEndpoint \
   -u $apiKey: \
   -X POST \
   -F file=@app.js.map \
-  -F name="http://example.com/app.js.map"
+  -F name="app.js.map"
 
 curl $releaseFileEndpoint \
   -u $apiKey: \
   -X POST \
   -F file=@app.js \
-  -F name="http://example.com/app.js"
+  -F name="app.js"
